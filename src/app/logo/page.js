@@ -6,7 +6,7 @@ import './logo.css';
 const Logo = () => {
   return (
     <div className="logo">
-      <Image src={logo} alt="Logo" width={200} height={100} className="logo-img" />
+      <Image src={logo} alt="Logo" width={150} className="logo-img" />
       <h1>Welcome To HomeVice!</h1>
     </div>
   );

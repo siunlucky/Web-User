@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/app/dashboard/page.js", "src/app/layout.js", "src/components/content/page.js", "src/app/logo/page.js", "src/app/signup/page.js"  ],
   "exclude": [
     "node_modules"
   ]

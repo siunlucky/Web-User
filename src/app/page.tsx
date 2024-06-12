@@ -2,6 +2,7 @@
 import React from 'react';
 import Logo from './logo/page'; // Pastikan jalur ini benar
 import './css/Login.css'; // Pastikan jalur ini benar
+import Link from 'next/link.js';
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
       <div className='login-form-container'>
         <form method='POST'>
           <div className="form-group">
-            <div className='label-input'><label htmlFor="email">Email</label></div>
+            <div className='label-input'><label htmlFor="email">Email address</label></div>
             <input type="email" id="email" name="email" />
           </div>
           <div className="form-group">
@@ -20,7 +21,7 @@ export default function Home() {
           <button type="submit">Log in</button>
         </form>
         <div className="sign-up-link">
-          Don't have an account yet? <a href="#">sign up here</a>
+          Don't have an account yet? <Link href="./signup">sign up here</Link>
         </div>
       </div>
     </main>
